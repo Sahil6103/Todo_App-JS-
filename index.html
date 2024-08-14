@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="todo-section">
+        <div class="todo-card">
+            <div class="heading">
+                <h1>Todo App</h1>
+            </div>
+            <div class="input-control">
+                <input type="text" class="todo-input" placeholder="Enter task">
+                <button class="add-task">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26" color="#fff"
+                        fill="none">
+                        <path d="M12 4V20" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M4 12H20" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+            <span class="error"></span>
+            <div class="todo-task-container">
+                <div class="empty-task">
+                    <svg viewBox="-0.875 -0.875 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        id="Emoji-Satisfied--Streamline-Iconoir" height="28" width="28">
+                        <desc>Emoji Satisfied Streamline Icon: https://streamlinehq.com</desc>
+                        <path
+                            d="M10.731984375 9.535421874999999H8.33896875m9.5720625 0h-2.393015625M1.159921875 13.125c0 6.608109375 5.35696875 11.965078125000002 11.965078125000002 11.965078125000002 6.608109375 0 11.965078125000002 -5.35696875 11.965078125000002 -11.965078125000002 0 -6.608109375 -5.35696875 -11.965078125000002 -11.965078125000002 -11.965078125000002C6.516890625 1.159921875 1.159921875 6.516890625 1.159921875 13.125Z"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75">
+                        </path>
+                        <path
+                            d="M18.5093125 16.116296875S16.714578125 18.5093125 13.125 18.5093125s-5.384312499999999 -2.393015625 -5.384312499999999 -2.393015625"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75">
+                        </path>
+                    </svg>
+                    <span>There is no tasks remaining!</span>
+                </div>
+                <!-- <div class="task-list">
+                    <span class="task-item">
+                        afadfdasfafs
+                    </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                        class="task-delete" fill="none">
+                        <path d="M14.9994 15L9 9M9.00064 15L15 9" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12Z"
+                            stroke="currentColor" stroke-width="1.5" />
+                    </svg>
+                </div> -->
+            </div>
+            <div class="todo-footer">
+                <span>Total Tasks : <span class="total-tasks">0</span></span>
+                <button class="clear-task">Clear All</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
